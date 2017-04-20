@@ -1,0 +1,50 @@
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+body {
+    font-family: Montserrat Light, sans-serif;
+    background: #f9eaf1;
+    background-image: URL('../img/background.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #dc4774;
+}
+
+.btn_2ofus {
+    background-color: #dc4774;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+a {
+    color: #dc4774;
+}
+
+main {
+    padding-top: 40px;
+}
+
+main>p {
+    margin: 0;
+}
+
+label {
+    margin-top: 15px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}
