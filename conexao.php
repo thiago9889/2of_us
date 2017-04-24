@@ -13,5 +13,6 @@
     <p>Já possui o código do parceiro? Digite abaixo:</p>
     <input type="text" name="codigo" id="codigo" size="25" placeholder="Código de conexão do parceiro"><br><br>
     <button type="submit">Confirmar</button>
+    <p>html lindo</p>
   </body>
 </html>
