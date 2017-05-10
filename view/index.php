@@ -20,16 +20,17 @@
           <div class="col-md-4"></div>
           <div class="col-md-4">
             <form method="post" id="formLogin" action="conexao.php">
-              <label for="email">E-mail</label><br>
+              <label for="email">E-mail:</label><br>
               <input type="email" maxlength="45" name="email" id="email" required autofocus><br>
-              <label for="senha">Senha</label><br>
+              <label for="senha">Senha:</label><br>
               <input type="password" maxlength="45" name="senha" id="senha" required><br><br>
-              <button type="submit" form="formLogin">Entrar</button>
+              <button type="submit" form="formLogin" accesskey="E">Entrar</button>
             </form>
           </div>
         </div>
-        <p>Não possui uma conta? <a href="cadastro.php">Cadastre-se</a> e conecte-se ao seu parceiro!</p>
+        <p>Não possui uma conta? <a href="cadastro.php" accesskey="C">Cadastre-se</a> e conecte-se ao seu parceiro!</p>
       </div>
     </main>
   </body>
+  
 </html>

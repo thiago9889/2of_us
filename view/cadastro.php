@@ -20,22 +20,22 @@
           <div class="col-md-4"></div>
           <div class="col-md-4">
             <form method="post" id="formCadastro" action="conexao.php">
-              <label for="nome">Nome</label><br>
+              <label for="nome">Nome:</label><br>
               <input type="text" maxlength="45" size="50" name="nome" id="nome" required autofocus><br>
-              <label for="email">E-mail</label><br>
+              <label for="email">E-mail:</label><br>
               <input type="email" maxlength="45" size="50" name="email" id="email" required><br>
-              <label for="senha">Senha</label><br>
+              <label for="senha">Senha:</label><br>
               <input type="password" maxlength="45" size="50" name="senha" id="senha" required><br>
-              <label for="dtNasc">Data de Nascimento</label><br>
+              <label for="dtNasc">Data de Nascimento:</label><br>
               <input type="date" name="dtNasc" id="dtNasc" required><br>
-              <label for="sexo">Sexo</label><br>
-              <select name="sexo" id="sexo">
+              <label for="sexo">Sexo:</label><br>
+              <select name="sexo" id="sexo" required>
                 <option value="">Selecione...</option>
                 <option value="f">Feminino</option>
                 <option value="m">Masculino</option>
                 <option value="b">Não binário</option>
               </select><br><br>
-              <button type="submit" form="formCadastro">Cadastrar</button>
+              <button type="submit" form="formCadastro" accesskey="C">Cadastrar</button>
             </form>
           </div>
           <div class="col-md-4"></div>
@@ -43,4 +43,5 @@
       </div>
     </main>
   </body>
+  
 </html>

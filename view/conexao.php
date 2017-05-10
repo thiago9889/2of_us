@@ -19,11 +19,11 @@
             <form method="post" id="formAccConection">
     <p>Pronto para integrar sua conta? Compartilhe com seu parceiro o código abaixo:</p>
     <input type="text" name="codigo" id="codigo" value="54325" disabled><br><br>
-    <button type="submit">Enviar código</button>
+    <button type="submit" accesskey="E">Enviar código</button>
     <br/><br/><br/>
     <p>Já possui o código do parceiro? Digite abaixo:</p>
     <input type="text" name="codigo" id="codigo" size="25" placeholder="Código de conexão do parceiro"><br><br>
-    <button type="submit">Confirmar</button>
+    <button type="submit" accesskey="C">Confirmar</button>
     </form>
     </div>
           <div class="col-md-4"></div>
