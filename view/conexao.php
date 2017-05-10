@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -16,9 +17,10 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-4">
-            <form method="post" id="formAccConection">
+            <form method="get" id="formAccConection" action="verificaprincipal.php">
     <p>Pronto para integrar sua conta? Compartilhe com seu parceiro o código abaixo:</p>
-    <input type="text" name="codigo" id="codigo" value="54325" disabled><br><br>
+    <p class="codigo">54325</p>
+    
     <button type="submit" accesskey="E">Enviar código</button>
     <br/><br/><br/>
     <p>Já possui o código do parceiro? Digite abaixo:</p>

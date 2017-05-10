@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-4">
-            <form method="post" id="formCadastro" action="conexao.php">
+            <form method="post" id="formCadastro" action="verificacadastro.php">
               <label for="nome">Nome:</label><br>
               <input type="text" maxlength="45" size="50" name="nome" id="nome" required autofocus><br>
               <label for="email">E-mail:</label><br>
