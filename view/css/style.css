@@ -62,7 +62,7 @@ input:focus, button:focus {
     font-size:2em;
     color: #cb275a;
 }
-#login{
+#login, #hrAlarmeAtual{
     display:none;
 }
 .tamanho{
