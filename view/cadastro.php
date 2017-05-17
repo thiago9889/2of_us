@@ -17,8 +17,8 @@
       <h1>Realize seu cadastro</h1>
       <div class="container">
         <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
             <form method="post" id="formCadastro" action="verificacadastro.php">
               <label for="nome">Nome:</label><br>
               <input type="text" maxlength="45" size="50" name="nome" id="nome" required autofocus><br>
@@ -38,7 +38,7 @@
               <button type="submit" form="formCadastro" accesskey="C">Cadastrar</button>
             </form>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-lg-4"></div>
         </div>
       </div>
     </main>

@@ -19,10 +19,8 @@
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
           
-          <img src="img/principal.png" usemap="#barra"/>
+          <img src="img/principal3.png" usemap="#barra"/>
               <map name="barra">
-<area class="cursor" shape="rect" coords="212,284,260,311" href="editaevento.php">
-<area class="cursor" shape="rect" coords="20,388,346,425" href="editaevento.php">
 
 <AREA SHAPE="DEFAULT" NOHREF>
 </map>

@@ -31,9 +31,9 @@
               <label for="nomeEvento">Evento:</label><br>
               <input type="text" maxlength="45" size="50" name="nomeEvento" id="nomeEvento" value="Jantar na casa da sogra (Rita)" required autofocus><br>
               <label for="dtEvento">Data de realização:</label><br>
-              <input type="date" name=dtEvento id="dtEvento" value="2017-05-19" required><br>
+              <input type="date" name=dtEvento id="dtEvento" value="2017-05-20" required><br>
             <label for="alarme">Horário:</label><br>
-              <input type="time" name="hrAlarme" id="hrAlarme" value="18:00"><br><br>
+              <input type="time" name="hrAlarme" id="hrAlarme" value="19:00"><br><br>
               <hr>
               
               <h3>Alarmes:</h3>

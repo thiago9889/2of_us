@@ -3,10 +3,16 @@ body {
     font-family: Montserrat Light, sans-serif;
     background: #f9eaf1;
     background-image: URL('../img/background.jpg');
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
 }
-
+area {
+    cursor: default;
+    display:block;
+}
+.cursor{
+    cursor: pointer;
+}
 .logo {
     margin-bottom: 20px;
 }
@@ -67,4 +73,12 @@ input:focus, button:focus {
 }
 .tamanho{
     min-height:300px;
+}
+.form-group{
+    margin:0;
+    padding: 0;
+}
+.control-label{
+    margin: 0;
+    padding: 0 10px;
 }
